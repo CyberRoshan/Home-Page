@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.parent{
+    height: 900px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+.nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+#menu{
+    text-align: center;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 8px;
+}
+h1{
+   margin-top: 8px;
+   text-transform: uppercase;
+   color: rgb(0, 0, 0);
+   font-family: poppins;
+   font-weight: 300;
+}
+.login{
+    background-color: white;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.signup{
+    background-color: orangered;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+}
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    font-size: 150px;
+    font-family: "Sedan", serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    
+}
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 500px;
+    width: 380px;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+    border-radius:40px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-60deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-50deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-40deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img5{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img6{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#img7{
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+
+
+.text{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.btm{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.social{
+    position: absolute;
+    bottom: 70px;
+    right: 80px;
+    font-size: 30px;
+    font-weight: 200;
+    word-spacing: 40px;
+    
+}
+.arrow{
+    position: absolute;
+    bottom:0px ;
+    right: 910px;
+    font-size: 50px;
+}
